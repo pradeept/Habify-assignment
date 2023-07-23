@@ -18,14 +18,21 @@
 - User Details (_Click on Avatar_)
 
 ##### Future Enhancements 🔮:
-- Adding animation to dropdowns
-- Showing dropdowns when hovered
+- Adding animation to dropdowns.
+
+- Showing dropdowns when hovered.
+
+- Responsive Forum page.
 
 
-### Technical Details
+#### Technical Details 🔧:
 - React.js is used to develop front-end components.
+
 - @Reduxjs/toolkit and react-redux libraries are used to maintain application state.
+
 - Temprorily dropdown menu's data and articles are stored and fetched from redux store.
+
+- Tailwind-CSS is used for styling components.
 
 ---
 
