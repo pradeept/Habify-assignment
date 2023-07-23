@@ -5,8 +5,8 @@ import ForumPage from "./pages/ForumPage";
 function App(){
     return <>
         <Routes>
-            <Route element={<ForumPage/>} path="/" />
-            <Route element={<SignupPage />} path="/signup"/>
+            <Route element={<SignupPage />} path="/" />
+            <Route element={<ForumPage/>} path="/home"/>
         </Routes>
     </>
 }

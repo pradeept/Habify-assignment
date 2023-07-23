@@ -9,8 +9,10 @@ import { BiRss } from "react-icons/bi";
 import CheckBox from "./CheckBox";
 import { useState } from "react";
 import Modal from "../commons/Modal";
+import { useNavigate } from "react-router-dom";
 
 function Categories() {
+    const navigate = useNavigate()
     const values = [
         "Selecte All",
         "Mental Health",
@@ -38,7 +40,8 @@ function Categories() {
     const [showModal, setShowModal] = useState(false);
 
     const handleClick = () => {
-        setShowModal(true);
+        // setShowModal(true);
+        navigate('/home')
     };
 
     const handleClose = () => {
